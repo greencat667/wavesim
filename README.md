@@ -2,6 +2,15 @@
 
 A working local Apple Silicon macOS bench for the Waveshare ESP32-S3-ePaper-1.54 V2 (SKU 32298).
 
+![WaveSim running the Environment dashboard, scenarios and faults panel](docs/images/wavesim-scenarios.png)
+
+![WaveSim capabilities panel showing what is simulated, bridged or unsupported](docs/images/wavesim-capabilities.png)
+
+## Get the hardware
+
+WaveSim simulates the **Waveshare ESP32-S3-ePaper-1.54 V2** (SKU 32298, non-touch). Buy it from Waveshare: <https://www.waveshare.com/esp32-s3-epaper-1.54.htm?sku=32298>. Make sure the listing is the **V2** board (V1 is being phased out and example code is not interchangeable). Product docs: <https://docs.waveshare.com/ESP32-S3-ePaper-1.54>. WaveSim is an independent project and is not affiliated with Waveshare.
+
+
 Open **dist/WaveSim.app**. No server, browser setup or npm install is required for the native bench.
 
 ## First run
