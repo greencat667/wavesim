@@ -1,0 +1,54 @@
+#!/usr/bin/env python3
+"""WaveSim CLI: compiled C firmware and the same engine used by WaveSim.app."""
+import argparse,subprocess,pathlib,sys,json,glob,os
+ROOT=pathlib.Path(__file__).resolve().parent
+sys.path.insert(0,str(ROOT/'tests'))
+from test_engine import Device
+p=argparse.ArgumentParser();sub=p.add_subparsers(dest='cmd',required=True)
+for name in ['build','run','flash','clean']:
+ s=sub.add_parser(name);s.add_argument('project',nargs='?',default=str(ROOT/'examples/environment'));s.add_argument('--target',choices=['simulator','physical','qemu'],default='simulator');s.add_argument('--port');s.add_argument('--steps',type=int,default=1)
+s=sub.add_parser('test');s.add_argument('path',nargs='?',default=str(ROOT/'tests'))
+s=sub.add_parser('device');s.add_argument('action',choices=['list'])
+s=sub.add_parser('scenario');s.add_argument('action',choices=['run']);s.add_argument('file')
+s=sub.add_parser('qemu');s.add_argument('image');s.add_argument('--gdb',action='store_true')
+a=p.parse_args()
+def build(project):
+ pr=pathlib.Path(project).resolve()
+ out=ROOT/'build'/f'{pr.stem}-user.dylib'
+ sys.path.insert(0,str(ROOT/'tools'))
+ from build_project import build as compile_project
+ compile_project(pr,out);return out
+
+try:
+ if a.cmd=='test':sys.exit(subprocess.call([sys.executable,'-m','unittest','discover','-s',a.path,'-v']))
+ elif a.cmd=='device':print('\n'.join(glob.glob('/dev/cu.usb*')) or 'No USB serial device found.')
+ elif a.cmd=='qemu':
+  args=[str(ROOT/'third_party/qemu/bin/qemu-system-xtensa'),'-nographic','-machine','esp32s3','-drive',f'file={pathlib.Path(a.image).resolve()},if=mtd,format=raw']
+  if a.gdb:args+=['-s','-S']
+  os.execv(args[0],args)
+ elif a.cmd=='scenario':
+  d=Device();s=d.cmd('replay',steps=json.loads(pathlib.Path(a.file).read_text()));print(json.dumps(s,indent=2));d.close()
+ elif a.target=='qemu':
+  if a.cmd=='build':sys.exit(subprocess.call([str(ROOT/'tools/idf.sh'),'-C',str(ROOT/'examples/qemu-environment'),'build']))
+  if a.cmd!='run':p.error('QEMU target supports build/run only')
+  sys.path.insert(0,str(ROOT/'tools'));from qemu_bridge import Bridge
+  b=Bridge()
+  try:
+   for _ in range(a.steps):s=b.handle({'op':'run'})
+   print(json.dumps(s,indent=2))
+  finally:b.close()
+ elif a.cmd=='flash' or a.target=='physical':
+  if a.cmd=='flash' and not a.port:p.error('Flashing requires an explicit --port /dev/cu.usb...; no automatic device selection.')
+  args=[str(ROOT/'tools/idf.sh'),'-C',str(pathlib.Path(a.project).resolve())]
+  if a.port:args+=['-p',a.port]
+  args+=['flash' if a.cmd=='flash' else 'fullclean' if a.cmd=='clean' else 'build']
+  sys.exit(subprocess.call(args))
+ elif a.cmd=='clean':
+  path=ROOT/'build'/f'{pathlib.Path(a.project).stem}-user.dylib';path.unlink(missing_ok=True)
+ else:
+  out=build(a.project);print('Compiled '+str(out),file=sys.stderr)
+  if a.cmd=='run':
+   d=Device();d.cmd('load',path=str(out))
+   for i in range(a.steps):s=d.cmd('advance',seconds=1)
+   print(json.dumps(s,indent=2));d.close()
+except (subprocess.CalledProcessError,RuntimeError,OSError) as e:print(str(e),file=sys.stderr);sys.exit(1)

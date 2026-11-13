@@ -1,0 +1,6 @@
+{
+  "backend": "EMULATED \u2014 ESP32-S3 Xtensa / QEMU",
+  "before_sha256": "4c4ef8244de74de696faf330f228d8d78a5da69f9c4dd319c92e607c61b79c42",
+  "after_sha256": "8a80b7a45e7516815084085e3c7f5e9c8a206017cf5d798654065fdfb83f6bbb",
+  "native_qemu_equal": true
+}

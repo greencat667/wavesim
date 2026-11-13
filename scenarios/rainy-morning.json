@@ -1,0 +1,1 @@
+[{"op":"power","on":true},{"op":"set","temperature":4,"humidity":96,"epoch":1894426200,"rate":0},{"op":"run"},{"op":"button","down":true},{"op":"button","down":false},{"op":"jump","seconds":10800},{"op":"set","network":"OFFLINE"},{"op":"run"},{"op":"set","network":"ONLINE"}]

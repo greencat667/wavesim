@@ -1,0 +1,66 @@
+{
+  "id": "waveshare-esp32-s3-epaper-154-v2",
+  "sku": 32298,
+  "revision": "V2",
+  "soc": "ESP32-S3-PICO-1-N8R8",
+  "flash_bytes": 8388608,
+  "psram_bytes": 8388608,
+  "display": {
+    "width": 200,
+    "height": 200,
+    "bpp": 1,
+    "white_bit": 1,
+    "spi_host": "SPI2_HOST"
+  },
+  "pins": {
+    "EPD_DC": 10,
+    "EPD_CS": 11,
+    "EPD_SCLK": 12,
+    "EPD_MOSI": 13,
+    "EPD_RST": 9,
+    "EPD_BUSY": 8,
+    "EPD_POWER": 6,
+    "AUDIO_POWER": 42,
+    "VBAT_POWER": 17,
+    "BOOT": 0,
+    "PWR": 18,
+    "I2C_SDA": 47,
+    "I2C_SCL": 48,
+    "SD_CLK": 39,
+    "SD_CMD": 41,
+    "SD_D0": 40,
+    "I2S_MCLK": 14,
+    "I2S_BCLK": 15,
+    "I2S_WS": 38,
+    "I2S_DOUT": 45,
+    "I2S_DIN": 16,
+    "AUDIO_PA": 46,
+    "BAT_ADC": 4,
+    "RTC_INT": 5,
+    "UART_TX": 43,
+    "UART_RX": 44,
+    "USB_N": 19,
+    "USB_P": 20
+  },
+  "i2c": {
+    "SHTC3": 112,
+    "PCF85063": 81,
+    "ES8311": 24
+  },
+  "exposed_gpio": [
+    1,
+    2,
+    3
+  ],
+  "touch": false,
+  "sources": [
+    "https://docs.waveshare.com/ESP32-S3-ePaper-1.54",
+    "https://github.com/waveshareteam/ESP32-S3-ePaper-1.54/tree/9957d0f4fc7cd40d1d42880cb1b74a8d6782a6c2/02_Example/ESP-IDF/V2"
+  ],
+  "notes": [
+    "RTC_INT, BAT_ADC, UART and USB cross-check with manufacturer linked shared Touch schematic. Touch pins 7/21 excluded for SKU 32298.",
+    "ES8311 0x18 from codec default; no codec emulation.",
+    "SD uses 1-bit SDMMC, not ePaper SPI.",
+    "Profiles document mapping; engine currently implements only this board."
+  ]
+}

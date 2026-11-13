@@ -1,0 +1,11 @@
+menu "WaveSim physical networking"
+config WAVE_WIFI_SSID
+    string "Wi-Fi SSID (empty disables Wi-Fi)"
+    default ""
+config WAVE_WIFI_PASSWORD
+    string "Wi-Fi password"
+    default ""
+config WAVE_HTTP_URL
+    string "Network example URL"
+    default "http://127.0.0.1:8765/"
+endmenu

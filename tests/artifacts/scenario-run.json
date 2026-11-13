@@ -1,0 +1,396 @@
+{
+  "battery": 84.0,
+  "busy": false,
+  "elapsed": 0.0,
+  "epoch": 1894437000.0,
+  "events": [
+    {
+      "bus": "SERIAL",
+      "message": "Boot: native compiled firmware loaded <repo>/build/environment.dylib",
+      "time": 0.0
+    },
+    {
+      "bus": "POWER",
+      "message": "ON",
+      "time": 0.0
+    },
+    {
+      "bus": "I2C",
+      "message": "WRITE 0x70 tx=2 rx=0",
+      "time": 0.0
+    },
+    {
+      "bus": "I2C",
+      "message": "READ 0x70 tx=2 rx=6",
+      "time": 0.0
+    },
+    {
+      "bus": "SHTC3",
+      "message": "MEASURE 21.300000",
+      "time": 0.0
+    },
+    {
+      "bus": "I2C",
+      "message": "READ 0x51 tx=1 rx=7",
+      "time": 0.0
+    },
+    {
+      "bus": "RTC",
+      "message": "READ 1897037100",
+      "time": 0.0
+    },
+    {
+      "bus": "SERIAL",
+      "message": "SHTC3 MEASURE temperature=21.3 humidity=68",
+      "time": 0.0
+    },
+    {
+      "bus": "SPI",
+      "message": "WRITE 5000 bytes CS=11 DC=10",
+      "time": 0.0
+    },
+    {
+      "bus": "DISPLAY",
+      "message": "FULL_REFRESH",
+      "time": 0.0
+    },
+    {
+      "bus": "SERIAL",
+      "message": "EPAPER FULL_REFRESH",
+      "time": 0.0
+    },
+    {
+      "bus": "I2C",
+      "message": "WRITE 0x70 tx=2 rx=0",
+      "time": 0.0
+    },
+    {
+      "bus": "I2C",
+      "message": "READ 0x70 tx=2 rx=6",
+      "time": 0.0
+    },
+    {
+      "bus": "SHTC3",
+      "message": "MEASURE 4.000000",
+      "time": 0.0
+    },
+    {
+      "bus": "I2C",
+      "message": "READ 0x51 tx=1 rx=7",
+      "time": 0.0
+    },
+    {
+      "bus": "RTC",
+      "message": "READ 1894426200",
+      "time": 0.0
+    },
+    {
+      "bus": "SERIAL",
+      "message": "SHTC3 MEASURE temperature=4.0 humidity=96",
+      "time": 0.0
+    },
+    {
+      "bus": "SPI",
+      "message": "WRITE 5000 bytes CS=11 DC=10",
+      "time": 0.0
+    },
+    {
+      "bus": "DISPLAY",
+      "message": "FULL_REFRESH",
+      "time": 0.0
+    },
+    {
+      "bus": "SERIAL",
+      "message": "EPAPER FULL_REFRESH",
+      "time": 0.0
+    },
+    {
+      "bus": "GPIO",
+      "message": "0 LOW",
+      "time": 0.0
+    },
+    {
+      "bus": "BUTTON",
+      "message": "0 PRESS",
+      "time": 0.0
+    },
+    {
+      "bus": "I2C",
+      "message": "WRITE 0x70 tx=2 rx=0",
+      "time": 0.0
+    },
+    {
+      "bus": "I2C",
+      "message": "READ 0x70 tx=2 rx=6",
+      "time": 0.0
+    },
+    {
+      "bus": "SHTC3",
+      "message": "MEASURE 4.000000",
+      "time": 0.0
+    },
+    {
+      "bus": "I2C",
+      "message": "READ 0x51 tx=1 rx=7",
+      "time": 0.0
+    },
+    {
+      "bus": "RTC",
+      "message": "READ 1894426200",
+      "time": 0.0
+    },
+    {
+      "bus": "SERIAL",
+      "message": "SHTC3 MEASURE temperature=4.0 humidity=96",
+      "time": 0.0
+    },
+    {
+      "bus": "SPI",
+      "message": "WRITE 5000 bytes CS=11 DC=10",
+      "time": 0.0
+    },
+    {
+      "bus": "DISPLAY",
+      "message": "FULL_REFRESH",
+      "time": 0.0
+    },
+    {
+      "bus": "SERIAL",
+      "message": "EPAPER FULL_REFRESH",
+      "time": 0.0
+    },
+    {
+      "bus": "GPIO",
+      "message": "0 HIGH",
+      "time": 0.0
+    },
+    {
+      "bus": "BUTTON",
+      "message": "0 RELEASE",
+      "time": 0.0
+    },
+    {
+      "bus": "I2C",
+      "message": "WRITE 0x70 tx=2 rx=0",
+      "time": 0.0
+    },
+    {
+      "bus": "I2C",
+      "message": "READ 0x70 tx=2 rx=6",
+      "time": 0.0
+    },
+    {
+      "bus": "SHTC3",
+      "message": "MEASURE 4.000000",
+      "time": 0.0
+    },
+    {
+      "bus": "I2C",
+      "message": "READ 0x51 tx=1 rx=7",
+      "time": 0.0
+    },
+    {
+      "bus": "RTC",
+      "message": "READ 1894426200",
+      "time": 0.0
+    },
+    {
+      "bus": "SERIAL",
+      "message": "SHTC3 MEASURE temperature=4.0 humidity=96",
+      "time": 0.0
+    },
+    {
+      "bus": "SPI",
+      "message": "WRITE 5000 bytes CS=11 DC=10",
+      "time": 0.0
+    },
+    {
+      "bus": "DISPLAY",
+      "message": "FULL_REFRESH",
+      "time": 0.0
+    },
+    {
+      "bus": "SERIAL",
+      "message": "EPAPER FULL_REFRESH",
+      "time": 0.0
+    },
+    {
+      "bus": "I2C",
+      "message": "WRITE 0x70 tx=2 rx=0",
+      "time": 0.0
+    },
+    {
+      "bus": "I2C",
+      "message": "READ 0x70 tx=2 rx=6",
+      "time": 0.0
+    },
+    {
+      "bus": "SHTC3",
+      "message": "MEASURE 4.000000",
+      "time": 0.0
+    },
+    {
+      "bus": "I2C",
+      "message": "READ 0x51 tx=1 rx=7",
+      "time": 0.0
+    },
+    {
+      "bus": "RTC",
+      "message": "READ 1894437000",
+      "time": 0.0
+    },
+    {
+      "bus": "SERIAL",
+      "message": "SHTC3 MEASURE temperature=4.0 humidity=96",
+      "time": 0.0
+    },
+    {
+      "bus": "SPI",
+      "message": "WRITE 5000 bytes CS=11 DC=10",
+      "time": 0.0
+    },
+    {
+      "bus": "DISPLAY",
+      "message": "FULL_REFRESH",
+      "time": 0.0
+    },
+    {
+      "bus": "SERIAL",
+      "message": "EPAPER FULL_REFRESH",
+      "time": 0.0
+    },
+    {
+      "bus": "NETWORK",
+      "message": "STATE OFFLINE",
+      "time": 0.0
+    },
+    {
+      "bus": "I2C",
+      "message": "WRITE 0x70 tx=2 rx=0",
+      "time": 0.0
+    },
+    {
+      "bus": "I2C",
+      "message": "READ 0x70 tx=2 rx=6",
+      "time": 0.0
+    },
+    {
+      "bus": "SHTC3",
+      "message": "MEASURE 4.000000",
+      "time": 0.0
+    },
+    {
+      "bus": "I2C",
+      "message": "READ 0x51 tx=1 rx=7",
+      "time": 0.0
+    },
+    {
+      "bus": "RTC",
+      "message": "READ 1894437000",
+      "time": 0.0
+    },
+    {
+      "bus": "SERIAL",
+      "message": "SHTC3 MEASURE temperature=4.0 humidity=96",
+      "time": 0.0
+    },
+    {
+      "bus": "SPI",
+      "message": "WRITE 5000 bytes CS=11 DC=10",
+      "time": 0.0
+    },
+    {
+      "bus": "DISPLAY",
+      "message": "FULL_REFRESH",
+      "time": 0.0
+    },
+    {
+      "bus": "SERIAL",
+      "message": "EPAPER FULL_REFRESH",
+      "time": 0.0
+    },
+    {
+      "bus": "NETWORK",
+      "message": "STATE ONLINE",
+      "time": 0.0
+    }
+  ],
+  "fault": "",
+  "frame": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0033f33f3c0f00fc0f3f33f30033f3003fffffffffffffffff0033f33f3c0f00fc0f3f33f30033f3003fffffffffffffffff3ff3f33f3f3f3f33f33f30c33ff3f3f3ffffffffffffffffff3ff3f33f3f3f3f33f33f30c33ff3f3f3ffffffffffffffffff3ff0f33f3f3f3f33f30f33333ff0f3f3ffffffffffffffffff3ff0f33f3f3f3f33f30f33333ff0f3f3ffffffffffffffffff00f3333f3f3f00f3f333333300f333f3ffffffffffffffffff00f3333f3f3f00f3f333333300f333f3ffffffffffffffffff3ff3c33f3f3f33f3f33c33f33ff3c3f3ffffffffffffffffff3ff3c33f3f3f33f3f33c33f33ff3c3f3ffffffffffffffffff3ff3f3ccff3f3cf3f33f33f33ff3f3f3ffffffffffffffffff3ff3f3ccff3f3cf3f33f33f33ff3f3f3ffffffffffffffffff0033f3f3fc0f3f3c0f3f33f30033f3f3ffffffffffffffffff0033f3f3fc0f3f3c0f3f33f30033f3f3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8000fffe0003fffffffffc000001ff8000ffffffffffffffff8000fffe0003fffffffffc000001ff8000ffffffffffffffff8000fffe0003fffffffffc000001ff8000ffffffffffffffff8000fffe0003fffffffffc000001ff8000ffffffffffffffff8000fffe0003fffffffffc000001ff8000fffffffffffffff07fff07c1fffc1ff801fffffff83ff07fff07fffffffffffff07fff07c1fffc1ff801fffffff83ff07fff07fffffffffffff07fff07c1fffc1ff801fffffff83ff07fff07fffffffffffff07fff07c1fffc1ff801fffffff83ff07fff07fffffffffffff07fff07c1fffc1ff801fffffff83ff07fff07fffffffffffff07fe007c1fffc1ff801ffffff07fff07fe007fffffffffffff07fe007c1fffc1ff801ffffff07fff07fe007fffffffffffff07fe007c1fffc1ff801ffffff07fff07fe007fffffffffffff07fe007c1fffc1ff801ffffff07fff07fe007fffffffffffff07fe007c1fffc1ff801ffffff07fff07fe007fffffffffffff07c1f07fe0003fffffffffffff83ff07c1f07fffffffffffff07c1f07fe0003fffffffffffff83ff07c1f07fffffffffffff07c1f07fe0003fffffffffffff83ff07c1f07fffffffffffff07c1f07fe0003fffffffffffff83ff07c1f07fffffffffffff07c1f07fe0003fffffffffffff83ff07c1f07fffffffffffff003ff07c1fffc1ff801ffffffffc1f003ff07fffffffffffff003ff07c1fffc1ff801ffffffffc1f003ff07fffffffffffff003ff07c1fffc1ff801ffffffffc1f003ff07fffffffffffff003ff07c1fffc1ff801ffffffffc1f003ff07fffffffffffff003ff07c1fffc1ff801ffffffffc1f003ff07fffffffffffff07fff07c1fffc1ff801fffc1fffc1f07fff07fffffffffffff07fff07c1fffc1ff801fffc1fffc1f07fff07fffffffffffff07fff07c1fffc1ff801fffc1fffc1f07fff07fffffffffffff07fff07c1fffc1ff801fffc1fffc1f07fff07fffffffffffff07fff07c1fffc1ff801fffc1fffc1f07fff07ffffffffffffff8000fffe0003ffffffffffe0003fff8000ffffffffffffffff8000fffe0003ffffffffffe0003fff8000ffffffffffffffff8000fffe0003ffffffffffe0003fff8000ffffffffffffffff8000fffe0003ffffffffffe0003fff8000ffffffffffffffff8000fffe0003ffffffffffe0003fff8000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc0fc0f003c0ffffc0ff3fffff3fc0fffffffffffffffffffffc0fc0f003c0ffffc0ff3fffff3fc0fffffffffffffffffffff3f33f3fcf3f3fff3f3c3ffffc3f3f3ffffffffffffffffffff3f33f3fcf3f3fff3f3c3ffffc3f3f3ffffffffffffffffffffff33c3f3f3c3fff3c3f3fffff3fff3ffffffffffffffffffffff33c3f3f3c3fff3c3f3fffff3fff3fffffffffffffffffffffcf333fcf333003333f3f003f3ffcffffffffffffffffffffffcf333fcf333003333f3f003f3ffcffffffffffffffffffffff3f0f3ff30f3fff0f3f3fffff3ff3ffffffffffffffffffffff3f0f3ff30f3fff0f3f3fffff3ff3fffffffffffffffffffffcff3f33f33f3fff3f3f3fffff3fcffffffffffffffffffffffcff3f33f33f3fff3f3f3fffff3fcffffffffffffffffffffff003c0fc0fc0ffffc0fc0ffffc0f003ffffffffffffffffffff003c0fc0fc0ffffc0fc0ffffc0f003fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe07fffffffffffffffffffffffffffffffffffffffffffffffef7ffffffffffffffffffffffffff0fffffffff000ffffffffe000fffffffffffffffffffffffff0fffffffff000ffffffffe000fffffffffffffffffffffffff0fffffffff000ffffffffe000fffffffffffffffffffffffff0fffffffff000ffffffffe000ffffffffffffffffffffffff00ffffffff0fff0fffffff0fff0fffffffffffffffffffffff00ffffffff0fff0fffffff0fff0fffffffffffffffffffffff00ffffffff0fff0fffffff0fff0fffffffffffffffffffffff00ffffffff0fff0fffffff0fff0ffffffffffffffffffffff0f0ffffffff0ff00fffffff0ffffffffffffffffffffffffff0f0ffffffff0ff00fffffff0ffffffffffffffffffffffffff0f0ffffffff0ff00fffffff0ffffffffffffffffffffffffff0f0ffffffff0ff00fffffff0fffffffffffffffffffffffff0ff0ffffffff0f0f0fffffff0fffffffffffffffffffffffff0ff0ffffffff0f0f0fffffff0fffffffffffffffffffffffff0ff0ffffffff0f0f0fffffff0fffffffffffffffffffffffff0ff0ffffffff0f0f0fffffff0fffffffffffffffffffffffff00000fffffff00ff0fffffff0fffffffffffffffffffffffff00000fffffff00ff0fffffff0fffffffffffffffffffffffff00000fffffff00ff0fffffff0fffffffffffffffffffffffff00000fffffff00ff0fffffff0ffffffffffffffffffffffffffff0fff00fff0fff0fffffff0fff0ffffffffffffffffffffffff0fff00fff0fff0fffffff0fff0ffffffffffffffffffffffff0fff00fff0fff0fffffff0fff0ffffffffffffffffffffffff0fff00fff0fff0fffffff0fff0ffffffffffffffffffffffff0fff00ffff000fffffffff000fffffffffffffffffffffffff0fff00ffff000fffffffff000fffffffffffffffffffffffff0fff00ffff000fffffffff000fffffffffffffffffffffffff0fff00ffff000fffffffff000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff803ffc0fc0fffffffc003f1ff1ffffffffffffffffffffffff803ffc0fc0fffffffc003f1ff1ffffffffffffffffffffffff803ffc0fc0fffffffc003f1ff1fffffffffffffffffffffffc7fc7e3ffc0fc7ffffc7fc71ff1fffffffffffffffffffffffc7fc7e3ffc0fc7ffffc7fc71ff1fffffffffffffffffffffffc7fc7e3ffc0fc7ffffc7fc71ff1fffffffffffffffffffffffc7fc71fffffe3fffffc7fc71ff1fffffffffffffffffffffffc7fc71fffffe3fffffc7fc71ff1fffffffffffffffffffffffc7fc71fffffe3fffffc7fc71ff1ffffffffffffffffffffffff8007000fff1ffffffc003f0001ffffffffffffffffffffffff8007000fff1ffffffc003f0001ffffffffffffffffffffffff8007000fff1ffffffc003f0001ffffffffffffffffffffffffffc71ff1f8fffffffc71ff1ff1ffffffffffffffffffffffffffc71ff1f8fffffffc71ff1ff1ffffffffffffffffffffffffffc71ff1f8fffffffc71ff1ff1fffffffffffffffffffffffffe3f1ff1c7e07ffffc7e3f1ff1fffffffffffffffffffffffffe3f1ff1c7e07ffffc7e3f1ff1fffffffffffffffffffffffffe3f1ff1c7e07ffffc7e3f1ff1ffffffffffffffffffffffff81ffe00fffe07ffffc7fc71ff1ffffffffffffffffffffffff81ffe00fffe07ffffc7fc71ff1ffffffffffffffffffffffff81ffe00fffe07ffffc7fc71ff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+  "frames": 6,
+  "gpio": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "humidity": 96.0,
+  "network": "ONLINE",
+  "powered": true,
+  "previous": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0033f33f3c0f00fc0f3f33f30033f3003fffffffffffffffff0033f33f3c0f00fc0f3f33f30033f3003fffffffffffffffff3ff3f33f3f3f3f33f33f30c33ff3f3f3ffffffffffffffffff3ff3f33f3f3f3f33f33f30c33ff3f3f3ffffffffffffffffff3ff0f33f3f3f3f33f30f33333ff0f3f3ffffffffffffffffff3ff0f33f3f3f3f33f30f33333ff0f3f3ffffffffffffffffff00f3333f3f3f00f3f333333300f333f3ffffffffffffffffff00f3333f3f3f00f3f333333300f333f3ffffffffffffffffff3ff3c33f3f3f33f3f33c33f33ff3c3f3ffffffffffffffffff3ff3c33f3f3f33f3f33c33f33ff3c3f3ffffffffffffffffff3ff3f3ccff3f3cf3f33f33f33ff3f3f3ffffffffffffffffff3ff3f3ccff3f3cf3f33f33f33ff3f3f3ffffffffffffffffff0033f3f3fc0f3f3c0f3f33f30033f3f3ffffffffffffffffff0033f3f3fc0f3f3c0f3f33f30033f3f3fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8000fffe0003fffffffffc000001ff8000ffffffffffffffff8000fffe0003fffffffffc000001ff8000ffffffffffffffff8000fffe0003fffffffffc000001ff8000ffffffffffffffff8000fffe0003fffffffffc000001ff8000ffffffffffffffff8000fffe0003fffffffffc000001ff8000fffffffffffffff07fff07c1fffc1ff801fffffff83ff07fff07fffffffffffff07fff07c1fffc1ff801fffffff83ff07fff07fffffffffffff07fff07c1fffc1ff801fffffff83ff07fff07fffffffffffff07fff07c1fffc1ff801fffffff83ff07fff07fffffffffffff07fff07c1fffc1ff801fffffff83ff07fff07fffffffffffff07fe007c1fffc1ff801ffffff07fff07fe007fffffffffffff07fe007c1fffc1ff801ffffff07fff07fe007fffffffffffff07fe007c1fffc1ff801ffffff07fff07fe007fffffffffffff07fe007c1fffc1ff801ffffff07fff07fe007fffffffffffff07fe007c1fffc1ff801ffffff07fff07fe007fffffffffffff07c1f07fe0003fffffffffffff83ff07c1f07fffffffffffff07c1f07fe0003fffffffffffff83ff07c1f07fffffffffffff07c1f07fe0003fffffffffffff83ff07c1f07fffffffffffff07c1f07fe0003fffffffffffff83ff07c1f07fffffffffffff07c1f07fe0003fffffffffffff83ff07c1f07fffffffffffff003ff07c1fffc1ff801ffffffffc1f003ff07fffffffffffff003ff07c1fffc1ff801ffffffffc1f003ff07fffffffffffff003ff07c1fffc1ff801ffffffffc1f003ff07fffffffffffff003ff07c1fffc1ff801ffffffffc1f003ff07fffffffffffff003ff07c1fffc1ff801ffffffffc1f003ff07fffffffffffff07fff07c1fffc1ff801fffc1fffc1f07fff07fffffffffffff07fff07c1fffc1ff801fffc1fffc1f07fff07fffffffffffff07fff07c1fffc1ff801fffc1fffc1f07fff07fffffffffffff07fff07c1fffc1ff801fffc1fffc1f07fff07fffffffffffff07fff07c1fffc1ff801fffc1fffc1f07fff07ffffffffffffff8000fffe0003ffffffffffe0003fff8000ffffffffffffffff8000fffe0003ffffffffffe0003fff8000ffffffffffffffff8000fffe0003ffffffffffe0003fff8000ffffffffffffffff8000fffe0003ffffffffffe0003fff8000ffffffffffffffff8000fffe0003ffffffffffe0003fff8000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc0fc0f003c0ffffc0ff3fffff3fc0fffffffffffffffffffffc0fc0f003c0ffffc0ff3fffff3fc0fffffffffffffffffffff3f33f3fcf3f3fff3f3c3ffffc3f3f3ffffffffffffffffffff3f33f3fcf3f3fff3f3c3ffffc3f3f3ffffffffffffffffffffff33c3f3f3c3fff3c3f3fffff3fff3ffffffffffffffffffffff33c3f3f3c3fff3c3f3fffff3fff3fffffffffffffffffffffcf333fcf333003333f3f003f3ffcffffffffffffffffffffffcf333fcf333003333f3f003f3ffcffffffffffffffffffffff3f0f3ff30f3fff0f3f3fffff3ff3ffffffffffffffffffffff3f0f3ff30f3fff0f3f3fffff3ff3fffffffffffffffffffffcff3f33f33f3fff3f3f3fffff3fcffffffffffffffffffffffcff3f33f33f3fff3f3f3fffff3fcffffffffffffffffffffff003c0fc0fc0ffffc0fc0ffffc0f003ffffffffffffffffffff003c0fc0fc0ffffc0fc0ffffc0f003fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe07fffffffffffffffffffffffffffffffffffffffffffffffef7ffffffffffffffffffffffffff0fffffffff000ffffffffe000fffffffffffffffffffffffff0fffffffff000ffffffffe000fffffffffffffffffffffffff0fffffffff000ffffffffe000fffffffffffffffffffffffff0fffffffff000ffffffffe000ffffffffffffffffffffffff00ffffffff0fff0fffffff0fff0fffffffffffffffffffffff00ffffffff0fff0fffffff0fff0fffffffffffffffffffffff00ffffffff0fff0fffffff0fff0fffffffffffffffffffffff00ffffffff0fff0fffffff0fff0ffffffffffffffffffffff0f0ffffffff0ff00fffffff0ffffffffffffffffffffffffff0f0ffffffff0ff00fffffff0ffffffffffffffffffffffffff0f0ffffffff0ff00fffffff0ffffffffffffffffffffffffff0f0ffffffff0ff00fffffff0fffffffffffffffffffffffff0ff0ffffffff0f0f0fffffff0fffffffffffffffffffffffff0ff0ffffffff0f0f0fffffff0fffffffffffffffffffffffff0ff0ffffffff0f0f0fffffff0fffffffffffffffffffffffff0ff0ffffffff0f0f0fffffff0fffffffffffffffffffffffff00000fffffff00ff0fffffff0fffffffffffffffffffffffff00000fffffff00ff0fffffff0fffffffffffffffffffffffff00000fffffff00ff0fffffff0fffffffffffffffffffffffff00000fffffff00ff0fffffff0ffffffffffffffffffffffffffff0fff00fff0fff0fffffff0fff0ffffffffffffffffffffffff0fff00fff0fff0fffffff0fff0ffffffffffffffffffffffff0fff00fff0fff0fffffff0fff0ffffffffffffffffffffffff0fff00fff0fff0fffffff0fff0ffffffffffffffffffffffff0fff00ffff000fffffffff000fffffffffffffffffffffffff0fff00ffff000fffffffff000fffffffffffffffffffffffff0fff00ffff000fffffffff000fffffffffffffffffffffffff0fff00ffff000fffffffff000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff803ffc0fc0fffffffc003f1ff1ffffffffffffffffffffffff803ffc0fc0fffffffc003f1ff1ffffffffffffffffffffffff803ffc0fc0fffffffc003f1ff1fffffffffffffffffffffffc7fc7e3ffc0fc7ffffc7fc71ff1fffffffffffffffffffffffc7fc7e3ffc0fc7ffffc7fc71ff1fffffffffffffffffffffffc7fc7e3ffc0fc7ffffc7fc71ff1fffffffffffffffffffffffc7fc71fffffe3fffffc7fc71ff1fffffffffffffffffffffffc7fc71fffffe3fffffc7fc71ff1fffffffffffffffffffffffc7fc71fffffe3fffffc7fc71ff1ffffffffffffffffffffffff8007000fff1ffffffc003f0001ffffffffffffffffffffffff8007000fff1ffffffc003f0001ffffffffffffffffffffffff8007000fff1ffffffc003f0001ffffffffffffffffffffffffffc71ff1f8fffffffc71ff1ff1ffffffffffffffffffffffffffc71ff1f8fffffffc71ff1ff1ffffffffffffffffffffffffffc71ff1f8fffffffc71ff1ff1fffffffffffffffffffffffffe3f1ff1c7e07ffffc7e3f1ff1fffffffffffffffffffffffffe3f1ff1c7e07ffffc7e3f1ff1fffffffffffffffffffffffffe3f1ff1c7e07ffffc7e3f1ff1ffffffffffffffffffffffff81ffe00fffe07ffffc7fc71ff1ffffffffffffffffffffffff81ffe00fffe07ffffc7fc71ff1ffffffffffffffffffffffff81ffe00fffe07ffffc7fc71ff1ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+  "project": "<repo>/build/environment.dylib",
+  "rate": 0.0,
+  "record": [],
+  "rotation": 0,
+  "rpc": null,
+  "sleeping": false,
+  "status": {
+    "Audio": "UNSUPPORTED",
+    "Bluetooth": "UNSUPPORTED",
+    "CPU": "SIMULATED \u2014 native C source; not Xtensa",
+    "Debugger": "UNSUPPORTED \u2014 use LLDB externally",
+    "GPIO": "SIMULATED \u2014 digital",
+    "Network": "BRIDGED \u2014 HTTP/HTTPS via curl",
+    "Power": "SIMULATED \u2014 lifecycle",
+    "RTC": "SIMULATED \u2014 BCD reads, UTC",
+    "SD": "BRIDGED \u2014 directory; no FAT",
+    "SHTC3": "SIMULATED \u2014 command, conversion, CRC",
+    "ePaper": "SIMULATED \u2014 framebuffer/API"
+  },
+  "temperature": 4.0
+}
